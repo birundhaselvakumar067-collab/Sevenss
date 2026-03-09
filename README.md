@@ -1,53 +1,88 @@
-⚡ Streamlining Ticket Assignment for Efficient Support Operations
-This initiative revolutionizes support operations at ABC Corporation by implementing an intelligent, automated ticket routing system within ServiceNow. The solution eliminates manual assignment bottlenecks through smart workflow automation.
 
-📋 Project Overview
-Project Title: Streamlining Ticket Assignment for Efficient Support Operations
-Team ID: NM2025TMID02349
-Team Size: 4
+<h1>Features Implemented</h1>
+<ul>
+ <li> <b>Signup (Bcrypt Password Encoder)</b> </li><br/>
 
-Role	Team Member
-Team Leader	Dhanush U A
-Team Member	Gayathiri S
-Team Member	Saranya Devi J
-Team Member	Sanjaithilak V S
+ ![](smartcontactmanager/src/main/resources/static/img/signup.gif)
 
-🔗 Live Implementation
-Access our ServiceNow deployment here:
-🌐 ServiceNow Instance:https://dev281213.service-now.com/now/nav/ui/classic/params/target/ui_page.do%3Fsys_id%3Dd2f5da9f83f032108cc66260ceaad34f
+ <hr/>
+ <li> <b>Login (Email validation through OTP)</b> </li><br/>
 
-🎬 Project Demonstration
-View the complete system walkthrough:
-📹 Demo Video:https://drive.google.com/file/d/1y88LFHLiMaD8dQTtEmXCF8x6AQGFWpbh/view?usp=drive_link
+ ![](smartcontactmanager/src/main/resources/static/img/login.gif) 
 
-🚀 Solution Overview
-"Streamlining Ticket Assignment for Efficient Support Operations" leverages ServiceNow's Flow Designer to create an intelligent routing system that automatically analyzes ticket content and directs them to appropriate support groups.
+  <hr/>
+ <li> <b>Forgot Password (through email)</b> </li><br/>
 
-The system intelligently parses the "Issue" field from incoming tickets—identifying keywords like "Certificates," "404 Error," or other technical terms—and instantly routes them to specialized support teams ("Certificates Team," "Platform Team," etc.), ensuring optimal resource allocation and expertise matching.
+ ![](smartcontactmanager/src/main/resources/static/img/forgot_password.gif)
 
-🎯 Core Capabilities
-Intelligent Ticket Routing - Automated analysis and assignment based on issue content
+  <hr/>
+ <li> <b>Add contacts (with details, images, description from editor)</b> </li><br/>
 
-Dynamic Group Allocation - Smart routing to specialized support teams
+  ![](smartcontactmanager/src/main/resources/static/img/add_contact.gif)
 
-Real-time Processing - Instant assignment upon ticket creation
+  <hr/>
+ <li> <b>View contacts (using pagination)</b> </li><br/>
 
-Expertise-Based Distribution - Ensures tickets reach most qualified teams
+ ![](smartcontactmanager/src/main/resources/static/img/view_contacts.gif)
 
-🛠 Technical Implementation
-Platform: ServiceNow
+  <hr/>
+ <li> <b>Search contacts (by name)</b> </li><br/>
 
-Automation Tool: Flow Designer
+![](smartcontactmanager/src/main/resources/static/img/search_contact.gif)
 
-Integration: Incident Management Module
+  <hr/>
+ <li> <b>Edit Contacts</b> </li><br/> 
 
-Logic: Keyword-based routing algorithms
+ ![](smartcontactmanager/src/main/resources/static/img/edit_contact.gif)
 
-📚 Project Documentation
-Complete implementation guides, workflow specifications, and testing documentation are available in the project repository. These resources provide comprehensive insights into the system architecture and operational procedures.
+  <hr/>
+ <li> <b>Delete Contacts</b> </li><br/>
 
-👥 Development Team
-Project NM2025TMID02349 — Delivering innovative ServiceNow automation solutions for modern enterprise support operations.
+ ![](smartcontactmanager/src/main/resources/static/img/delete_contact.gif)
 
-Transforming support efficiency through intelligent automation 🚀
+  <hr/>
+ <li> <b>View Profile Page</b> </li><br/>
 
+  ![](smartcontactmanager/src/main/resources/static/img/view_profile.gif) 
+
+  <hr/>
+ <li> <b>Edit Profile Page (Name, Description, Image)</b> </li><br/>
+
+ ![](smartcontactmanager/src/main/resources/static/img/edit_profile.gif) 
+
+  <hr/>
+ <li> <b>Change Password (old, new)</b> </li><br/>
+
+ ![](smartcontactmanager/src/main/resources/static/img/change_password.gif) 
+
+  <hr/>
+ <li> <b>Admin Panel Support</b> </li><br/>
+
+ ![](smartcontactmanager/src/main/resources/static/img/admin_panel.gif) 
+
+  <hr/>
+ <li> <b>Search users (by name only for admins)</b> </li><br/>
+
+ ![](smartcontactmanager/src/main/resources/static/img/search_user.gif) 
+
+  <hr/>
+ <li> <b>Delete users (only for admins)</b> </li><br/>
+
+ ![](smartcontactmanager/src/main/resources/static/img/delete_user.gif)
+
+  <hr/>
+ <li> <b>Send Notification to users (to their registered email, only for admins)</b> </li><br/>
+
+  ![](smartcontactmanager/src/main/resources/static/img/send_notification.gif)
+
+  <hr/>
+ <li> <b>Payment gateway integration (Razorpay)</b> </li><br/>
+
+ ![](smartcontactmanager/src/main/resources/static/img/payment_gateway_integration.gif)
+ 
+</ul>
+
+
+<h1>Complete Demo</h1>
+
+https://github.com/aanu2021/Smart-Contact-Manager/assets/91496248/c8a59780-0a86-44f2-b71d-4047f3cc638a
